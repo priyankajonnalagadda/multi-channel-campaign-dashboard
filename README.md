@@ -20,9 +20,14 @@ This project demonstrates tracking and visualizing digital marketing campaign pe
 - Sample dataset used for demonstration
 
 ## Screenshots
+
 ### CTR by Channel
 ![CTR by Channel](reports/ctr_by_channel.png)
 
 ### Engagement by Channel
-![Engagement by Channel](reports/engagement_by_channel.png)
+![Engagement Rate by Channel](reports/engagement_by_channel.png)
+
+### Combined CTR & Engagement
+![CTR & Engagement Combined](reports/ctr_engagement_combined.png)
+
 
