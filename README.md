@@ -1,35 +1,28 @@
 # Multi-Channel Campaign Performance Dashboard
 
-## Project Overview
-This project analyzes the performance of multi-channel marketing campaigns (Instagram, LinkedIn, Facebook, Twitter).  
-It calculates key metrics like CTR, impressions, clicks, and engagement, and visualizes insights to improve campaign strategy.
+This project demonstrates tracking and visualizing digital marketing campaign performance across multiple channels. The dashboard helps analyze CTR (Click-Through Rate) and Engagement metrics for better insights and decision-making.
 
-## Tech Stack
-- Python (Pandas, Matplotlib, Seaborn)
-- Excel / Power BI (optional dashboard report)
-- CSV for sample data
+## Tools & Tech Stack
+- Python 3
+- Jupyter Notebook
+- Pandas
+- Matplotlib
 
-## Folder Structure
-multi-channel-campaign-dashboard/
-│
-├── data/ # Sample and cleaned campaign data
-├── notebooks/ # Jupyter notebook with analysis & charts
-├── scripts/ # Python scripts for data cleaning & metrics calculation
-├── reports/ # Example Excel dashboard
-├── README.md
-└── .gitignore
+## How to Run
+1. Clone the repository
+2. Open `notebooks/dashboard_analysis.ipynb` in Jupyter Notebook
+3. Run all cells to generate charts and reports
+4. Check the `reports/` folder for generated images and Excel reports
 
-## Steps to Run
-1. Clone the repo:  
-```bash
-git clone https://github.com/<your-username>/multi-channel-campaign-dashboard.git
+## Key Insights
+- Visualized CTR and Engagement across multiple channels
+- Charts saved as PNG in `reports/` folder
+- Sample dataset used for demonstration
 
-
----
-
-## **Step 6.2: Add Screenshots (Optional)**
-
-- Run your notebook charts and save them as PNG:  
-```python
-plt.savefig("../reports/ctr_by_channel.png")
+## Screenshots
+### CTR by Channel
 ![CTR by Channel](reports/ctr_by_channel.png)
+
+### Engagement by Channel
+![Engagement by Channel](reports/engagement_by_channel.png)
+
